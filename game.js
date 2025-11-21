@@ -30,26 +30,12 @@ console.log(RightRandomNumber)
 
 function hint() {
     if(document.getElementById('btn1').innerHTML == RightRandomNumber) {
-         document.getElementById('btn1').style.backgroundColor = "red;";        
+        console.log(RightRandomNumber); console.log("1");document.getElementById("h").style.display = "none"; document.getElementById("main").style = "color: red; font-size: 100px;"    
     } else if(document.getElementById('btn2').innerHTML == RightRandomNumber) {
-        document.getElementById('btn2').style.backgroundColor = 'red';
+         console.log(RightRandomNumber);   console.log("2");    document.getElementById("h").style.display = "none"; document.getElementById("main").style = "color: yellow; font-size: 100px;"
     } else if(document.getElementById('btn3').innerHTML == RightRandomNumber) {
-        document.getElementById('btn3').style.backgroundColor = 'red';
-    } else {
-        throw new Error(`Error@ ${document.title}`);
-        
-    }
-        document.getElementById('h').style.display = "none"
-        setTimeout(function(){    if(document.getElementById('btn1').innerHTML == RightRandomNumber) {
-         document.getElementById('btn1').style.backgroundColor = "greenyellow";        
-    } else if(document.getElementById('btn2').innerHTML == RightRandomNumber) {
-        document.getElementById('btn2').style.backgroundColor = 'greenyellow';
-    } else if(document.getElementById('btn3').innerHTML == RightRandomNumber) {
-        document.getElementById('btn3').style.backgroundColor = 'greenyellow';
-    } else {
-        throw new Error(`Error@ ${document.title}`);
-        
-    }},1000 * 2)
+     console.log(RightRandomNumber);    console.log("3");   document.getElementById("h").style.display = "none"; document.getElementById("main").style = "color: green; font-size: 100px;"
+    } 
 }
 
 function appear() {
@@ -57,7 +43,7 @@ function appear() {
 }
 
 function hintTimer() {
-    setTimeout(appear, 1000 * 30)
+    setTimeout(appear, 1000 * 0.5)
 }
 
 function inc() {

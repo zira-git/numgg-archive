@@ -9,8 +9,16 @@ body {
 }
 
 .bts {
-    width: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150px;
     height: 40px;
     color: blue;
     background-color: greenyellow;
+}
+
+.nor {
+    height: 35px;
+    width: 100px;
+    color: green;
+    background-color: yellow;
 }
