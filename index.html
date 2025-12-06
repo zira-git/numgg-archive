@@ -4,14 +4,13 @@
       <meta charset="UTF-8">
       <title>Number Guessing Game</title>
     </head>
-    <body>
-      <span>by: Emad</span>
-      <br>
-      <button class="nor" id="ht" onclick="hintTimer()">Start Hint Timer</button><br>
+    <body style="background-image: url('https://t4.ftcdn.net/jpg/01/78/03/83/360_F_178038332_TVgrU6KKD4lhXvtk2M5NxSHFaYglDSwW.jpg');">
+      <link rel="stylesheet" href="game.css">
+       <button class="nor" id="ht" onclick="hintTimer()">Start Hint Timer</button><br>
       <button class="nor" id="h" style="display: none;" onclick="hint()">Use Hint</button>
       <div id="theme" style="background-color: transparent;">
-      <link rel="stylesheet" href="game.css">
-      <h1 style="align-self: center; font-size: 100px; display: block; color: black;" id="main">Number Guessing Game</h1>
+      <h1 id="UI"></h1>
+      <h1 style="align-self: center; font-size: 100px; display: block;" id="main">Number Guessing Game</h1>
       <button class="nor" style="width: 70px; height: 30px;" id="starter" onclick="start(); this.style.display = 'none'">start</button>
       <button class="nor" onclick="document.getElementById('rules').style.display = 'block'; this.style.display = 'none'">Rules</button>
       <br><span id="rules" style="display: none;">Rules: <br> <i>There Will be three buttons that you have to click. <br> Each button will hold a number; pick the right one: get a streak point; pick the wrong one; lose all your streak points and DIE >:) and you can also get a hint by pressing the "start hint timer" and after 30secs; the hint button will show.<br> Note: When you click the hint button; the number guessing game icon will be either red (the first button is right) or yellow(second button) or green(third button).</i></span> 
@@ -24,8 +23,10 @@
       <span id="btn2" class="bts" onclick="f2()">---</span>
       <span id="btn3" class="bts" onclick="f3()">---</span>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <span id="version">v: 3.2.0 [winter update]</span><button onclick="document.getElementById('inf').style.display = 'block'">info@ change log</button><br><span style="display: none; color: black;" id="inf">This is the third update of number_guessing_game; It comes with: more features & functions like: <br> -- Has Hint() function where it sets a timer for 30 secs and shows you the right number after the timer ends.<br> -- Can also get `Best Ever` score that saves forever! <br> --has <i style="font-size: 70px">Wayyyyy</i> more bigger numbers and has a seasonal background that changes automatically according to the time of the year. <br> The next version will have a leaderboard... </span>
+      <span id="version">v: 3.5.2 [Labubu phonk 67 brainrot update (for Dexter)]</span><button onclick="document.getElementById('inf').style.display = 'block'">info@ change log</button><br><span style="display: none;" id="inf">This is a fun Cheat update of number_guessing_game;<br> -- Increases Score By 67 >:)<br> -- Can also get `Best Ever` score that saves forever! <br> I will be making v4.0 soon and it will look better and will Have seasonal cusomizable options. <br> <h1 style="font-size: 60px; color: red">-- WARNING: BRAINROT UPDATE LASTS FOR 1 WEEK; WILL RESET ON SAT: DEC 13, 2025</h1></span>
+       <span>by: Emad</span>
       <script src="./game.js"></script>
       </div>
     </body>   
-  </html>
+  </html>    
+  
