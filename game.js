@@ -135,7 +135,7 @@ console.log(mon)
 
 //
 
-console.log("%c⚠️ WARNING: YOU CANNOT LOG THE CORRECT NUMBER AND CHEAT; DOING SO WILL RESULT IN PROSECUTION AND/OR FINE.","font-size: 35px; color: red; text-shadow: 3px 3px black;")
+console.log("%c⚠️ WARNING: I WILL DIDDLE YOU IF YOU CHEAT","font-size: 35px; color: red; text-shadow: 3px 3px black;")
 
 delete console;
 
