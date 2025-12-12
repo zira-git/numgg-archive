@@ -2,7 +2,7 @@
         start(); lose()
     }
 }
-<title>Number Guessing Game 3.1.0<title>
+
 function f2() {
     if (document.getElementById('btn2').innerHTML == RightRandomNumber) {
         window.alert("YOU WERE RIGHT!!!")
