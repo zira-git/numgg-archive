@@ -1,4 +1,3 @@
-@@ -1,60 +1,67 @@
 bestScore = 0;
 streak = 0;
 function start() {
