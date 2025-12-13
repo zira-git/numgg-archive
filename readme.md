@@ -1,2 +1,2 @@
 # numgg archive
-An archive of number guessing game just in case it gets deleted also includes all versions. (You're currently on v3.1) (also doesn't work so it's just here for archival ig)
+An archive of number guessing game just in case it gets deleted also includes all versions. (You're currently on v3.1)
