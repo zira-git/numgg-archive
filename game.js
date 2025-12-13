@@ -1,4 +1,3 @@
-@@ -1,67 +1,106 @@
 bestEver = 0;
 bestScore = 0;
 streak = 0;
