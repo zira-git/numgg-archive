@@ -1,3 +1,4 @@
+@@ -1,102 +1,114 @@
 bestEver = localStorage.getItem("bestEver") || 0
 bestScore = 0;
 streak = 0;
@@ -57,7 +58,7 @@ function inc() {
     } else if(document.getElementById('be').innerHTML == 0 || document.getElementById('be').innerHTML < streak || document.getElementById('be').innerHTML < bestScore) {
         bestEver = bestScore;
     }
-    
+
     if (bestScore > bestEver ) {
         bestEver = bestScore;
         localStorage.setItem("bestEver", bestEver.toString())
