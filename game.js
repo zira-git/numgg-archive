@@ -1,4 +1,3 @@
-@@ -1,102 +1,114 @@
 bestEver = localStorage.getItem("bestEver") || 0
 bestScore = 0;
 streak = 0;
@@ -100,7 +99,6 @@ function f3() {
         window.alert("YOU DIED!!!");
     }
 }
-
 if(mon === 10 || mon === 11 || mon === 0 || mon === 1 || mon === 2) {
     document.body.style.backgroundImage = "url('https://t4.ftcdn.net/jpg/01/78/03/83/360_F_178038332_TVgrU6KKD4lhXvtk2M5NxSHFaYglDSwW.jpg')";
 } else if(mon === 3 || mon === 4 || mon === 5) {
