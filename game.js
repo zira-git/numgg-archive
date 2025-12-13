@@ -7,8 +7,6 @@ function sixSevenMeme() {
     document.body.style.backgroundImage = 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK7QKDbwpgOzGKBOKt0AALf7LuAb9cGbysPQ&s")';
 }
 
-function EndMeme() {
-    document.body.style.backgroundImage = "url('https://i.pinimg.com/564x/75/67/61/7567615c8065144c49d054ec0ea2bf6e.jpg')";
 }
 
 function start() {
