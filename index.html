@@ -3,18 +3,14 @@
   <html>
     <head>
       <meta charset="UTF-8">
-      <span>by: Emad</span>
       <title>Number Guessing Game 2.0</title>
-    </head>
-    <body> 
+    </head> 
     <body>
       <span>by: Emad</span>
       <br>
       <button onclick="document.getElementById('theme').style = 'background-color: white;'; document.getElementById('inf').style = 'color: black'; document.getElementById('version').style = 'color: black'; document.getElementById('main').style = 'color: black;'; document.getElementById('rules').style = 'color: black'">Light theme</button>
       <button onclick="document.getElementById('theme').style = 'background-color: black;'">Dark theme</button>
       <div id="theme" style="background-color: transparent;">
-      <link rel="stylesheet" href="game.css">
-      <h1 style="align-self: center; font-size: 100px; display: block;">Number Guessing Game</h1>
       <h1 style="align-self: center; font-size: 100px; display: block;" id="main">Number Guessing Game</h1>
       <button style="width: 70px; height: 30px;" id="starter" onclick="start(); this.style.display = 'none'">start</button>
       <button onclick="document.getElementById('rules').style.display = 'block'; this.style.display = 'none'">Rules</button>
@@ -27,7 +23,6 @@
       <button id="btn2" class="bts" onclick="f2()">---</button>
       <button id="btn3" class="bts" onclick="f3()">---</button>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <span>v: 1.0.0</span><button onclick="document.getElementById('inf').style.display = 'block'">info</button><br><span style="display: none;" id="inf">This is the first update of number_guessing_game; I will be making v1.0.1 soon...</span>
       <span id="version">v: 2.0.0</span><button onclick="document.getElementById('inf').style.display = 'block'">info</button><br><span style="display: none;" id="inf">This is the second update of number_guessing_game; It comes with: more features & functions like: <br> -- Dark theme & light theme selection <br> -- Bug fix where when you die: streak pt does not reset <br> I will be making v3.0 soon and it will look better and will save highest score using cookies... </span>
       <script src="./game.js"></script>
       </div>
